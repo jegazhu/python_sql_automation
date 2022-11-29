@@ -5,9 +5,9 @@ from datetime import datetime
 from plyer import notification
 
 conn = pyodbc.connect(
-    "Driver={SQL Server Native Client 11.0};"
-    "Server=LAPTOP-3020T4VA;"
-    "Database=WideWorldImportersDW;"
+    "Driver={SQL Server Native Client 11.0};" #feel free to check your driver with 'select @@SERVERNAME'
+    "Server='your server connection goes here';"
+    "Database='your database goes here';"
     "Trusted_Connection=yes;"
     )
 
